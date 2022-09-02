@@ -1,11 +1,12 @@
 <p align="center">
-  <img src="https://github.com/programmers/system_qa/blob/master/img/logo/logo.png" alt="Logo">
+  <img src="https://raw.githubusercontent.com/programmers/system_qa/main/img/logo/logo.png" alt="Logo">
+            
 </p>
 <hr>
 
 # Install Complete!
 
-🎉 _Congratulations!_ Your system is now ready for all things development. Before diving in, please review the [Master Software Document](https://github.com/programmers/system_qa/blob/master/docs/Software/Software%20Docs.md) to see all of the software descriptions, how-to guides, and licenses for the ecosystems and choices you selected.
+🎉 _Congratulations!_ Your system is now ready for all things development. Before diving in, please review the [Master Software Document](https://github.com/programmers/system_qa/blob/main/docs/Software/Software%20Docs.md) to see all of the software descriptions, how-to guides, and licenses for the ecosystems and choices you selected.
 
 <br/>
 
@@ -15,7 +16,7 @@
 
 ## 1. The Guides
 
-First, open up and bookmark the [Master Software Document](https://github.com/programmers/system_qa/blob/master/docs/Software/Software%20Docs.md). The guides column links come in the form of articles, official docs, and YouTube videos.
+First, open up and bookmark the [Master Software Document](https://github.com/programmers/system_qa/blob/main/docs/Software/Software%20Docs.md). The guides column links come in the form of articles, official docs, and YouTube videos.
 
 
 Note that some may contain install steps and information on an operating system you don't use. This means that software is multi-platform (i.e: Windows). Skip through the OS-specific section to get to core information for learning.
@@ -41,7 +42,7 @@ ssh-add ~/.ssh/id_ed25519
 [This code](https://gist.github.com/programmers/093a2522020c2cf1ec136463419d5b06) represents a small, unopinioned collection of bashrc functions and aliases that one can append to `~/.bashrc`. They will provide a lot of conveniences with day-to-day usage and can be extended per your use cases. Do not replace your .bashrc with this file, simply append it.
 
 
-**ZSH Shell Notice**: [ZSH shell](https://www.zsh.org/) and [Oh My ZSH!](https://ohmyz.sh/) are incredibly popular in the industry for all things terminal. Unfortunately, many Programmer's System's scripts and Ansible arrangements do not currently target `~/.zshrc`. Using ZSH will limit the value of what Programmer's System provides. Including these is a major project TODO ([weekend project?](https://github.com/programmers/system_qa/issues/1)).
+**ZSH Shell Notice**: [ZSH shell](https://www.zsh.org/) and [Oh My ZSH!](https://ohmyz.sh/) are incredibly popular in the industry for all things terminal. Unfortunately, many Programmer's System's scripts and Ansible arrangements do not currently target `~/.zshrc`. Using ZSH will limit the value of what Programmer's System provides. Including these is a major project TODO ([weekend project?](https://github.com/programmers/system_qa/issues/4)).
 
 <br/>
 

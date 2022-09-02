@@ -1,5 +1,8 @@
+_note: non-official repo for experimentation and QA!_
+
 <p align="center">
-  <img src="https://github.com/programmers/system_qa/blob/master/img/logo/logo.png" alt="Logo">
+  <img src="https://raw.githubusercontent.com/programmers/system_qa/main/img/logo/logo.png" alt="Logo">
+
 </p>
 
 ## About
@@ -14,7 +17,7 @@ This project is in **alpha** and currently supports fresh installs of Ubuntu 22.
 
 **Ecosystems**: General, Python, JavaScript and Node, Web Tools, Version Control, Database Clients, Containers and VMs, Scientific, Cloud Tools, Java, C and Cpp, Go, PHP, Rust, Ruby.
 
-**(**_Review the [Master Software Document](https://github.com/programmers/system_qa/blob/master/docs/Software/Software%20Docs.md) to see all software descriptions, how-to guides, and licenses for the ecosystems._**)**
+**(**_Review the [Master Software Document](https://github.com/programmers/system_qa/blob/main/docs/Software/Software%20Docs.md) to see all software descriptions, how-to guides, and licenses for the ecosystems._**)**
 
 **Software**: All (mostly open source) software and tools are carefully selected based on industry standards with security in mind.
 
@@ -24,13 +27,13 @@ This project is in **alpha** and currently supports fresh installs of Ubuntu 22.
 
 **Restrictions**: No backends (DB engines, web servers, etc), only clients (DBeaver, Azure CLI, etc). Snaps/Flatpaks Ansible modules are allowed, but use them as a last resort due to performance.
 
-**Editors**: VSCode is the "default" editor and has many relevant extensions installed in each ecosystem. A large amount of editors/IDEs are selectable as well. Vim/Emacs distribution/configurations are recommended [here](https://github.com/programmers/system_qa/blob/master/docs/Post%20Install/Overview.md#4-consider-setting-up-vim-or-emacs).
+**Editors**: VSCode is the "default" editor and has many relevant extensions installed in each ecosystem. A large amount of editors/IDEs are selectable as well. Vim/Emacs distribution/configurations are recommended [here](https://github.com/programmers/system_qa/blob/main/docs/Post%20Install/Overview.md#4-consider-setting-up-vim-or-emacs).
 
 ## Running
 
 _(middle-click for new tab)_
 
-[![programerssystemvid](https://github.com/programmers/system_qa/blob/master/img/youtube/thumbnail.png)](https://www.youtube.com/watch?v=fZ_3YuxSKpk)
+[![programerssystemvid](https://raw.githubusercontent.com/programmers/system_qa/main/img/youtube/thumbnail.png)](https://www.youtube.com/watch?v=fZ_3YuxSKpk)
 
 For Ubuntu, you may wish extend the sudoers timeout for bigger installs (many ecosystems). [Video Instructions](https://www.youtube.com/watch?v=EvZ4gu-C5gM).
 
@@ -46,33 +49,34 @@ cd ~/.progsys && sudo ./run ubuntu
 
 ## Dev Guide
 
-1. **[Ansible Usage](https://github.com/programmers/system_qa/blob/master/docs/Dev%20Guide/1.%20Ansible%20Usage.md)**
-2. **[Install & Run](https://github.com/programmers/system_qa/blob/master/docs/Dev%20Guide/2.%20Install%20%26%20Run.md)**
-3. **[Contributing](https://github.com/programmers/system_qa/blob/master/docs/Dev%20Guide/3.%20Contributing.md)**
+1. **[Ansible Usage](https://github.com/programmers/system_qa/blob/main/docs/Dev%20Guide/1.%20Ansible%20Usage.md)**
+2. **[Install & Run](https://github.com/programmers/system_qa/blob/main/docs/Dev%20Guide/2.%20Install%20%26%20Run.md)**
+3. **[Contributing](https://github.com/programmers/system_qa/blob/main/docs/Dev%20Guide/3.%20Contributing.md)**
 
 <br />
 
 ## Project TODOs
 
-**OS**: Support macOS 12 Monterey[*](https://github.com/programmers/system_qa/issues/1), Linux Mint[*](https://github.com/programmers/system_qa/issues/1), and 
-Fedora 36[*](https://github.com/programmers/system_qa/issues/1)
+**OS**: Support macOS 12 Monterey[*](https://github.com/programmers/system_qa/issues/21), and Fedora 36[*](https://github.com/programmers/system_qa/issues/20)
 
-**Ansible**: Standard project structure[*](https://github.com/programmers/system_qa/issues/1), better logging[*](https://github.com/programmers/system_qa/issues/1), Support ZSH/Oh-My-ZSH[*](https://github.com/programmers/system_qa/issues/1)
+**Ansible**:
+Standard project structure[*](https://github.com/programmers/system_qa/issues/19), better logging[*](https://github.com/programmers/system_qa/issues/18), Support ZSH/Oh-My-ZSH[*](https://github.com/programmers/system_qa/issues/4)
 
-**Base Install**: Loading indicator[*](https://github.com/programmers/system_qa/issues/1), new lock file approach[*](https://github.com/programmers/system_qa/issues/1), redo var.yml approach[*](https://github.com/programmers/system_qa/issues/1)
+**Base Install**:
+Loading indicator[*](https://github.com/programmers/system_qa/issues/17), new lock file approach[*](https://github.com/programmers/system_qa/issues/16), redo var.yml approach[*](https://github.com/programmers/system_qa/issues/15)
 
-**CLI**: More relevant ecosystem questions[*](https://github.com/programmers/system_qa/issues/1), more Writer docs[*](https://github.com/programmers/system_qa/issues/1), address TODOs in prompt.py[*](https://github.com/programmers/system_qa/issues/1)
+**CLI**: More relevant ecosystem questions[*](https://github.com/programmers/system_qa/issues/14), more Writer docs[*](https://github.com/programmers/system_qa/issues/13), address TODOs in prompt.py[*](https://github.com/programmers/system_qa/issues/12)
 
-**Modules**: Support existing OS upgrades by updating runscript[*](https://github.com/programmers/system_qa/issues/1)
+**Modules**: Support existing OS upgrades by updating runscript[*](https://github.com/programmers/system_qa/issues/11)
 
-**Playbooks**: Add a mobile playbook[*](https://github.com/programmers/system_qa/issues/1), redo Ruby playbook[*](https://github.com/programmers/system_qa/issues/1)
+**Playbooks**: Add a mobile playbook[*](https://github.com/programmers/system_qa/issues/10), redo Ruby playbook[*](https://github.com/programmers/system_qa/issues/9)
 
-**Docs Gen**: Refactor license link function in generate_page.py[*](https://github.com/programmers/system_qa/issues/1)
+**Docs Gen**: Refactor license link function in generate_page.py[*](https://github.com/programmers/system_qa/issues/8)
 
-**Scripts**: Spring Tool Suite not showing in search[*](https://github.com/programmers/system_qa/issues/1), Use a local "tmp" directory for install assets[*](https://github.com/programmers/system_qa/issues/1)
+**Scripts**: Spring Tool Suite not showing in search[*](https://github.com/programmers/system_qa/issues/5), Use a local "tmp" directory for install assets[*](https://github.com/programmers/system_qa/issues/7)
 
 <br/>
 
 ## License
 
-[MIT](https://github.com/programmers/system_qa/blob/master/LICENSE)
+[MIT](https://github.com/programmers/system_qa/blob/main/LICENSE)
